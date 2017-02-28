@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <title></title>
+    <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+  </head>
+  <body>
+    <div class='container'>
+    	<h1 class='text-center' title='(Quick)-ipedia'><small>Q</small>Wikipedia <a href='http://en.wikipedia.org/wiki/Special:Random' target='_blank' class='badge badge-info'>Random Page</a></h1>
+    	<div class='col-xs-12 well'>
+    		<div id='group' class='input-group'>
+    			<input type='text' id='textbox' class='form-control' placeholder='Search Wikipedia' autofocus>
+    			<div class='input-group-btn'>
+    				<button type='button' id='searchbtn' class='btn btn-default'>Search</button>
+    			</div>
+    		</div>
+    		<span id='message' class='help-block'></span>
+    	</div>
+    	<ul id='results' class='col-xs-12'></ul>
+    </div>
+    <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script type='text/javascript' src='script.js'></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+#results {
+	list-style-type: none;
+}
+#results li {
+	border: 1px solid;
+}
+.imgContainer {
+	padding-right: 0;
+}
+.imgContainer img {
+	max-width: 100%;
+}
+.badge-info {
+	background-color: #5bc0de;
+}
