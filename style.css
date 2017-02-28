@@ -13,3 +13,20 @@
 .badge-info {
 	background-color: #5bc0de;
 }
+
+div#source-code {
+  text-align: center;
+
+  padding: 2em;
+}
+div#source-code img {
+  width: 25px;
+  height: 25px;
+}
+div#source-code a {
+  color: #01579B;
+  text-decoration: none;
+}
+div#source-code a:hover {
+  text-decoration: underline;
+}
