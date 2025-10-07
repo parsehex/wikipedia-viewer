@@ -1,8 +1,5 @@
 import { useState, useEffect } from 'react';
-import {
-	useNavigate,
-	useParams,
-} from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
@@ -100,6 +97,7 @@ function ArticlePage() {
 					</div>
 				)}
 				{isLoading && <p>Loading article...</p>}
+				{error && <p className="text-red-500 text-sm mt-2">{error}</p>}
 			</>
 
 			<footer className="text-center mt-12 pt-8 border-t">
