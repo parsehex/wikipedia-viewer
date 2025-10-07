@@ -94,7 +94,7 @@ function App() {
 
 			<div className="space-y-4">
 				{results.map((page) => (
-					<Card key={page.pageid}>
+					<Card key={page.pageid} className='py-0'>
 						<CardContent className="p-4">
 							<a
 								href={`https://en.wikipedia.org/?curid=${page.pageid}`}
